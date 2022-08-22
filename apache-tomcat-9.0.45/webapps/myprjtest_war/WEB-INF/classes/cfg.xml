@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--mybatis框架配置文件的名称空间，进度使用其中的标签-->
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--每个环境对应一个数据库连接，可以配置多个环境，如mysql、oracle-->
+    <!--default指定默认使用哪一个数据库连接环境-->
+    <settings>
+        <!-- 在控制台显示执行sql语句 -->
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+    </settings>
+    <environments default="mysql">
+        <!--配置连接mysql数据库的参数信息-->
+        <environment id="mysql">
+            <!--    C3P0连接池        -->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--配置使用连接池-->
+            <dataSource type="dao.C3P0BaseDAO">
+                <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="jdbcUrl" value="jdbc:mysql://localhost/rbac?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC"/>
+                <property name="user" value="root"/>
+                <property name="password" value="mgsmgs"/>
+            </dataSource>
+        </environment>
+
+        <environment id="mysql">
+            <!--配置数据库连接时的“事务”，此处使用的是JDBC事务管理机制-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--配置使用连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost/rbac?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC"/>
+                <property name="username" value="root"/>
+                <property name="password" value="mgsmgs"/>
+                <property name="poolMaximumActiveConnections" value="8"/>
+            </dataSource>
+        </environment>
+
+        <!--配置连接oracle数据库的参数信息-->
+        <environment id="oracle">
+            <transactionManager type=""></transactionManager>
+            <dataSource type=""></dataSource>
+        </environment>
+    </environments>
+<!--    <plugins>-->
+<!--        <plugin interceptor="">-->
+
+<!--        </plugin>-->
+<!--    </plugins>-->
+    <!--把ORM映射文件注册给mybatis框架-->
+    <mappers>
+        <mapper resource="dao/RoleMapper.xml"/>
+        <mapper class="dao.C3P0BaseDAO"/>
+        <mapper class="dao.MenuDAO"/>
+    </mappers>
+</configuration>

@@ -1,0 +1,15 @@
+controller\TSpnameTrafficsController.class
+service\TProvinceTrafficsService.class
+entity\TSpnameTraffics.class
+entity\TPnameTraffics.class
+service\impl\TProvinceTrafficsServiceImpl.class
+service\impl\TPnameTrafficsServiceImpl.class
+dao\TSpnameTrafficsDao.class
+entity\TProvinceTraffics.class
+controller\TPnameTrafficsController.class
+dao\TPnameTrafficsDao.class
+controller\TProvinceTrafficsController.class
+dao\TProvinceTrafficsDao.class
+service\TPnameTrafficsService.class
+service\TSpnameTrafficsService.class
+service\impl\TSpnameTrafficsServiceImpl.class

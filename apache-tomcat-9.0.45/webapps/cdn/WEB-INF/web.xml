@@ -1,0 +1,40 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+      <display-name>Archetype Created Web Application</display-name>
+      <!--若让项⽬在web环境下依托spring框架正常运⾏，须指定sprng框架的配置文件路径及监听器-->
+      <context-param>
+          <param-name>contextConfigLocation</param-name>
+          <param-value>classpath:applicationContext.xml</param-value>
+      </context-param>
+    <!--spring框架监听器-->
+      <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+      </listener>
+      <!--springmvc 框架的总控制器，实质为serlvet-->
+      <servlet>
+          <servlet-name>cdn</servlet-name>
+          <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <!--指定springmvc框架配置文件的位置，默认/WEB-INF/总控制器的名称-servlet.xml-->
+        <init-param>
+          <param-name>contextConfigLocation</param-name>
+          <!--<param-value>/WEB-INF/springmvc.xml</param-value>-->
+          <!--此处的路径为项⽬resources⽬录下-->
+          <param-value>classpath:springmvc.xml</param-value>
+        </init-param>
+        <!--服务器启动时加载该servlet的优先次序，“1”优先级最⾼-->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cdn</servlet-name>
+        <!--指定springmvc框架对哪些http请求进⾏拦截处理，即，什么样的请求才⾛springmvc框
+        架，此处/表⽰ 所有请求-->
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <!--session过期时间，30分钟-->
+    <session-config>
+         <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>

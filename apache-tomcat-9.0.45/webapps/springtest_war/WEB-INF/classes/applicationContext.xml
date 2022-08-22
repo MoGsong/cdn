@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--spring框架配置文件的跟标签-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+<!--  使用控制反转注解配置  -->
+    <context:component-scan base-package="entity"></context:component-scan>
+    <!--配置使用C3P0连接池-->
+    <!--spring框架的配置文件中，一个bean标签对应一个java对象，该对象的生命周期均由spring框架管理，默认该对象”单例“-->
+    <!--id相关于对象名称，用于唯一区分该对象，class为该对象对应的java类-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://localhost/rbac?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC"/>
+        <property name="user" value="root"/>
+        <property name="password" value="mgsmgs"/>
+    </bean>
+
+    <!--DBCP连接池-->
+    <bean id="dataSourceX" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url"
+                  value="jdbc:mysql://localhost/rbac?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC"/>
+        <property name="username" value="root"/>
+        <property name="password" value="mgsmgs"/>
+    </bean>
+
+    <!--配置数据库连接时的“事务”，此处使用的是JDBC事务管理机制,间接使用了DBMS中的事务管理机制-->
+    <!--需要指定对哪一个连接池采用事务管理-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+    <!-- DI依赖注入-->
+    <!--mybatis会话工厂,该对象由spring框架维护，该类由mybatis-spring.jar提供-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--持久层对象，该对象的创建由org.mybatis.spring.mapper.MapperFactoryBean代理创建，该类由mybatis-spring.jar提供-->
+    <!--此处需要指定ORM映射接口和会话工厂-->
+    <!--默认spring管理的java对象，均为单例”singleton“ ,通过设置scope="prototype"变成非单例-->
+    <bean id="menuDAO" class="org.mybatis.spring.mapper.MapperFactoryBean" scope="singleton">
+        <property name="mapperInterface" value="dao.MenuDAO"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+</beans>

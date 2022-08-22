@@ -1,0 +1,472 @@
+21-Aug-2022 08:53:30.038 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.45
+21-Aug-2022 08:53:30.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 10:29:04 UTC
+21-Aug-2022 08:53:30.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.45.0
+21-Aug-2022 08:53:30.055 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 08:53:30.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 08:53:30.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 08:53:30.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2022 08:53:30.056 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_144-b01
+21-Aug-2022 08:53:30.057 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 08:53:30.057 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.45
+21-Aug-2022 08:53:30.058 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.45
+21-Aug-2022 08:53:30.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\apache-tomcat-9.0.45\conf\logging.properties
+21-Aug-2022 08:53:30.061 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 08:53:30.062 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2022 08:53:30.064 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2022 08:53:30.064 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+21-Aug-2022 08:53:30.064 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\apache-tomcat-9.0.45
+21-Aug-2022 08:53:30.065 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\apache-tomcat-9.0.45
+21-Aug-2022 08:53:30.066 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\apache-tomcat-9.0.45\temp
+21-Aug-2022 08:53:30.076 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.27]。
+21-Aug-2022 08:53:30.085 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+21-Aug-2022 08:53:30.086 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 08:53:30.110 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+21-Aug-2022 08:53:30.713 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+21-Aug-2022 08:53:31.190 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1524]毫秒内初始化
+21-Aug-2022 08:53:31.243 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 08:53:31.243 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.45]
+21-Aug-2022 08:53:31.276 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]
+21-Aug-2022 08:53:34.859 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 08:53:38.760 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]的部署已在[7,482]ms内完成
+21-Aug-2022 08:53:38.764 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\cdn_war]
+21-Aug-2022 08:53:43.287 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 08:53:46.866 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\cdn_war]的部署已在[8,102]毫秒内完成
+21-Aug-2022 08:53:46.878 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\docs]
+21-Aug-2022 08:53:46.903 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\docs]的部署已在[24]毫秒内完成
+21-Aug-2022 08:53:46.905 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\examples]
+21-Aug-2022 08:53:47.232 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\examples]的部署已在[327]毫秒内完成
+21-Aug-2022 08:53:47.241 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\host-manager]
+21-Aug-2022 08:53:47.278 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\host-manager]的部署已在[37]毫秒内完成
+21-Aug-2022 08:53:47.286 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\manager]
+21-Aug-2022 08:53:47.316 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\manager]的部署已在[31]毫秒内完成
+21-Aug-2022 08:53:47.318 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\myprjtest_war]
+21-Aug-2022 08:53:48.070 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 08:53:48.087 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\myprjtest_war]的部署已在[768]毫秒内完成
+21-Aug-2022 08:53:48.089 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\ROOT]
+21-Aug-2022 08:53:48.202 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\ROOT]的部署已在[113]毫秒内完成
+21-Aug-2022 08:53:48.213 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\spingtest1_war]
+21-Aug-2022 08:53:50.438 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 08:53:50.487 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2022 08:53:53.377 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 2890 ms
+21-Aug-2022 08:53:53.383 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\spingtest1_war]的部署已在[5,170]毫秒内完成
+21-Aug-2022 08:53:53.386 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\springtest_war]
+21-Aug-2022 08:53:55.130 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 08:53:55.149 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\springtest_war]的部署已在[1,763]毫秒内完成
+21-Aug-2022 08:53:55.160 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+21-Aug-2022 08:53:55.190 信息 [main] org.apache.catalina.startup.Catalina.start [23998]毫秒后服务器启动
+21-Aug-2022 11:51:26.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.45
+21-Aug-2022 11:51:26.051 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 10:29:04 UTC
+21-Aug-2022 11:51:26.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.45.0
+21-Aug-2022 11:51:26.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 11:51:26.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 11:51:26.052 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 11:51:26.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2022 11:51:26.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_144-b01
+21-Aug-2022 11:51:26.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 11:51:26.053 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.45
+21-Aug-2022 11:51:26.054 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.45
+21-Aug-2022 11:51:26.062 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\apache-tomcat-9.0.45\conf\logging.properties
+21-Aug-2022 11:51:26.076 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 11:51:26.077 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2022 11:51:26.079 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2022 11:51:26.081 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+21-Aug-2022 11:51:26.081 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\apache-tomcat-9.0.45
+21-Aug-2022 11:51:26.082 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\apache-tomcat-9.0.45
+21-Aug-2022 11:51:26.083 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\apache-tomcat-9.0.45\temp
+21-Aug-2022 11:51:26.092 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.27]。
+21-Aug-2022 11:51:26.095 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+21-Aug-2022 11:51:26.097 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 11:51:26.119 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+21-Aug-2022 11:51:26.713 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8888"]
+21-Aug-2022 11:51:27.298 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1619]毫秒内初始化
+21-Aug-2022 11:51:27.348 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 11:51:27.348 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.45]
+21-Aug-2022 11:51:27.381 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]
+21-Aug-2022 11:51:31.382 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 11:51:35.056 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]的部署已在[7,674]ms内完成
+21-Aug-2022 11:51:35.059 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\cdn_war]
+21-Aug-2022 11:51:37.550 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 11:51:40.523 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\cdn_war]的部署已在[5,463]毫秒内完成
+21-Aug-2022 11:51:40.538 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\docs]
+21-Aug-2022 11:51:40.576 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\docs]的部署已在[38]毫秒内完成
+21-Aug-2022 11:51:40.589 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\examples]
+21-Aug-2022 11:51:40.997 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\examples]的部署已在[408]毫秒内完成
+21-Aug-2022 11:51:41.009 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\host-manager]
+21-Aug-2022 11:51:41.046 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\host-manager]的部署已在[37]毫秒内完成
+21-Aug-2022 11:51:41.048 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\manager]
+21-Aug-2022 11:51:41.085 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\manager]的部署已在[37]毫秒内完成
+21-Aug-2022 11:51:41.094 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\myprjtest_war]
+21-Aug-2022 11:51:41.766 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 11:51:41.782 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\myprjtest_war]的部署已在[687]毫秒内完成
+21-Aug-2022 11:51:41.784 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\ROOT]
+21-Aug-2022 11:51:41.806 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\ROOT]的部署已在[22]毫秒内完成
+21-Aug-2022 11:51:41.811 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\spingtest1_war]
+21-Aug-2022 11:51:43.546 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 11:51:43.615 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2022 11:51:46.279 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 2664 ms
+21-Aug-2022 11:51:46.284 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\spingtest1_war]的部署已在[4,473]毫秒内完成
+21-Aug-2022 11:51:46.286 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\springtest_war]
+21-Aug-2022 11:51:47.869 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 11:51:47.885 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\springtest_war]的部署已在[1,599]毫秒内完成
+21-Aug-2022 11:51:47.892 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8888"]
+21-Aug-2022 11:51:47.908 信息 [main] org.apache.catalina.startup.Catalina.start [20609]毫秒后服务器启动
+21-Aug-2022 12:03:10.757 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.45
+21-Aug-2022 12:03:10.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 10:29:04 UTC
+21-Aug-2022 12:03:10.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.45.0
+21-Aug-2022 12:03:10.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 12:03:10.765 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 12:03:10.765 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 12:03:10.765 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2022 12:03:10.765 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_144-b01
+21-Aug-2022 12:03:10.766 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 12:03:10.766 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.45
+21-Aug-2022 12:03:10.767 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.45
+21-Aug-2022 12:03:10.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\apache-tomcat-9.0.45\conf\logging.properties
+21-Aug-2022 12:03:10.770 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 12:03:10.771 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2022 12:03:10.772 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2022 12:03:10.772 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+21-Aug-2022 12:03:10.773 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\apache-tomcat-9.0.45
+21-Aug-2022 12:03:10.774 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\apache-tomcat-9.0.45
+21-Aug-2022 12:03:10.775 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\apache-tomcat-9.0.45\temp
+21-Aug-2022 12:03:10.781 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.27]。
+21-Aug-2022 12:03:10.789 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+21-Aug-2022 12:03:10.791 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 12:03:10.800 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+21-Aug-2022 12:03:11.574 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8888"]
+21-Aug-2022 12:03:12.025 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1608]毫秒内初始化
+21-Aug-2022 12:03:12.078 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 12:03:12.078 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.45]
+21-Aug-2022 12:03:12.109 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]
+21-Aug-2022 12:03:15.689 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 12:03:19.255 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]的部署已在[7,144]ms内完成
+21-Aug-2022 12:03:19.258 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\cdn_war]
+21-Aug-2022 12:03:21.649 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 12:03:24.674 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\cdn_war]的部署已在[5,415]毫秒内完成
+21-Aug-2022 12:03:24.683 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\docs]
+21-Aug-2022 12:03:24.703 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\docs]的部署已在[20]毫秒内完成
+21-Aug-2022 12:03:24.705 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\examples]
+21-Aug-2022 12:03:25.005 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\examples]的部署已在[300]毫秒内完成
+21-Aug-2022 12:03:25.015 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\host-manager]
+21-Aug-2022 12:03:25.045 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\host-manager]的部署已在[30]毫秒内完成
+21-Aug-2022 12:03:25.047 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\manager]
+21-Aug-2022 12:03:25.080 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\manager]的部署已在[33]毫秒内完成
+21-Aug-2022 12:03:25.082 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\myprjtest_war]
+21-Aug-2022 12:03:25.793 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 12:03:25.808 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\myprjtest_war]的部署已在[726]毫秒内完成
+21-Aug-2022 12:03:25.809 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\ROOT]
+21-Aug-2022 12:03:25.833 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\ROOT]的部署已在[24]毫秒内完成
+21-Aug-2022 12:03:25.834 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\spingtest1_war]
+21-Aug-2022 12:03:27.571 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 12:03:27.610 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2022 12:03:29.988 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 2378 ms
+21-Aug-2022 12:03:29.996 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\spingtest1_war]的部署已在[4,161]毫秒内完成
+21-Aug-2022 12:03:29.996 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\springtest_war]
+21-Aug-2022 12:03:31.621 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 12:03:31.644 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\springtest_war]的部署已在[1,648]毫秒内完成
+21-Aug-2022 12:03:31.650 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8888"]
+21-Aug-2022 12:03:31.663 信息 [main] org.apache.catalina.startup.Catalina.start [19637]毫秒后服务器启动
+21-Aug-2022 15:06:40.371 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.45
+21-Aug-2022 15:06:40.379 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 10:29:04 UTC
+21-Aug-2022 15:06:40.379 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.45.0
+21-Aug-2022 15:06:40.379 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 15:06:40.379 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 15:06:40.380 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 15:06:40.380 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2022 15:06:40.380 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_144-b01
+21-Aug-2022 15:06:40.380 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 15:06:40.381 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.45
+21-Aug-2022 15:06:40.381 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.45
+21-Aug-2022 15:06:40.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\apache-tomcat-9.0.45\conf\logging.properties
+21-Aug-2022 15:06:40.390 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 15:06:40.391 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2022 15:06:40.400 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2022 15:06:40.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+21-Aug-2022 15:06:40.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\apache-tomcat-9.0.45
+21-Aug-2022 15:06:40.404 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\apache-tomcat-9.0.45
+21-Aug-2022 15:06:40.404 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\apache-tomcat-9.0.45\temp
+21-Aug-2022 15:06:40.410 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.27]。
+21-Aug-2022 15:06:40.410 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+21-Aug-2022 15:06:40.411 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 15:06:40.420 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+21-Aug-2022 15:06:40.979 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8888"]
+21-Aug-2022 15:06:41.522 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1460]毫秒内初始化
+21-Aug-2022 15:06:41.580 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 15:06:41.580 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.45]
+21-Aug-2022 15:06:41.612 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]
+21-Aug-2022 15:06:44.995 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:06:48.365 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]的部署已在[6,752]ms内完成
+21-Aug-2022 15:06:48.369 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\cdn_war]
+21-Aug-2022 15:06:50.803 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:06:53.792 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\cdn_war]的部署已在[5,423]毫秒内完成
+21-Aug-2022 15:06:53.800 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\docs]
+21-Aug-2022 15:06:53.830 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\docs]的部署已在[30]毫秒内完成
+21-Aug-2022 15:06:53.840 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\examples]
+21-Aug-2022 15:06:54.167 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\examples]的部署已在[327]毫秒内完成
+21-Aug-2022 15:06:54.178 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\host-manager]
+21-Aug-2022 15:06:54.209 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\host-manager]的部署已在[31]毫秒内完成
+21-Aug-2022 15:06:54.217 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\manager]
+21-Aug-2022 15:06:54.246 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\manager]的部署已在[30]毫秒内完成
+21-Aug-2022 15:06:54.247 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\myprjtest_war]
+21-Aug-2022 15:06:54.921 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:06:54.934 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\myprjtest_war]的部署已在[687]毫秒内完成
+21-Aug-2022 15:06:54.935 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\ROOT]
+21-Aug-2022 15:06:54.963 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\ROOT]的部署已在[27]毫秒内完成
+21-Aug-2022 15:06:54.964 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\spingtest1_war]
+21-Aug-2022 15:06:56.658 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:06:56.714 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2022 15:06:59.013 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 2299 ms
+21-Aug-2022 15:06:59.018 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\spingtest1_war]的部署已在[4,054]毫秒内完成
+21-Aug-2022 15:06:59.019 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\springtest_war]
+21-Aug-2022 15:07:00.683 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:07:00.701 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\springtest_war]的部署已在[1,682]毫秒内完成
+21-Aug-2022 15:07:00.708 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8888"]
+21-Aug-2022 15:07:00.725 信息 [main] org.apache.catalina.startup.Catalina.start [19202]毫秒后服务器启动
+21-Aug-2022 15:33:48.276 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8888"]
+21-Aug-2022 15:33:48.633 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+21-Aug-2022 15:33:48.992 警告 [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[cdn]似乎启动了一个名为[commons-pool-evictor]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+21-Aug-2022 15:33:49.112 警告 [Thread-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[cdn_war]似乎启动了一个名为[commons-pool-evictor]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:748)]
+21-Aug-2022 15:33:49.129 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8888"]
+21-Aug-2022 15:33:49.141 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8888"]
+21-Aug-2022 15:33:51.725 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.45
+21-Aug-2022 15:33:51.732 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 10:29:04 UTC
+21-Aug-2022 15:33:51.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.45.0
+21-Aug-2022 15:33:51.735 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 15:33:51.736 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 15:33:51.737 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 15:33:51.737 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2022 15:33:51.738 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_144-b01
+21-Aug-2022 15:33:51.739 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 15:33:51.740 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.45
+21-Aug-2022 15:33:51.741 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.45
+21-Aug-2022 15:33:51.743 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\apache-tomcat-9.0.45\conf\logging.properties
+21-Aug-2022 15:33:51.743 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 15:33:51.744 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2022 15:33:51.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2022 15:33:51.746 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+21-Aug-2022 15:33:51.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\apache-tomcat-9.0.45
+21-Aug-2022 15:33:51.747 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\apache-tomcat-9.0.45
+21-Aug-2022 15:33:51.748 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\apache-tomcat-9.0.45\temp
+21-Aug-2022 15:33:51.752 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.27]。
+21-Aug-2022 15:33:51.758 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+21-Aug-2022 15:33:51.760 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 15:33:51.768 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+21-Aug-2022 15:33:52.319 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+21-Aug-2022 15:33:52.780 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1281]毫秒内初始化
+21-Aug-2022 15:33:52.833 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 15:33:52.833 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.45]
+21-Aug-2022 15:33:52.864 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]
+21-Aug-2022 15:33:56.383 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:34:00.616 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]的部署已在[7,752]ms内完成
+21-Aug-2022 15:34:00.620 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\cdn_war]
+21-Aug-2022 15:34:03.131 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:34:06.381 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\cdn_war]的部署已在[5,761]毫秒内完成
+21-Aug-2022 15:34:06.391 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\docs]
+21-Aug-2022 15:34:06.414 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\docs]的部署已在[23]毫秒内完成
+21-Aug-2022 15:34:06.415 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\examples]
+21-Aug-2022 15:34:06.682 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\examples]的部署已在[266]毫秒内完成
+21-Aug-2022 15:34:06.692 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\host-manager]
+21-Aug-2022 15:34:06.718 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\host-manager]的部署已在[26]毫秒内完成
+21-Aug-2022 15:34:06.720 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\manager]
+21-Aug-2022 15:34:06.745 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\manager]的部署已在[26]毫秒内完成
+21-Aug-2022 15:34:06.755 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\myprjtest_war]
+21-Aug-2022 15:34:07.446 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:34:07.462 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\myprjtest_war]的部署已在[707]毫秒内完成
+21-Aug-2022 15:34:07.463 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\ROOT]
+21-Aug-2022 15:34:07.488 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\ROOT]的部署已在[25]毫秒内完成
+21-Aug-2022 15:34:07.489 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\spingtest1_war]
+21-Aug-2022 15:34:09.240 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:34:09.285 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2022 15:34:11.617 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 2331 ms
+21-Aug-2022 15:34:11.621 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\spingtest1_war]的部署已在[4,132]毫秒内完成
+21-Aug-2022 15:34:11.623 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\springtest_war]
+21-Aug-2022 15:34:13.311 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:34:13.341 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\springtest_war]的部署已在[1,718]毫秒内完成
+21-Aug-2022 15:34:13.350 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+21-Aug-2022 15:34:13.377 信息 [main] org.apache.catalina.startup.Catalina.start [20595]毫秒后服务器启动
+21-Aug-2022 15:48:04.276 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.45
+21-Aug-2022 15:48:04.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 10:29:04 UTC
+21-Aug-2022 15:48:04.282 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.45.0
+21-Aug-2022 15:48:04.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 15:48:04.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 15:48:04.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 15:48:04.283 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2022 15:48:04.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_144-b01
+21-Aug-2022 15:48:04.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 15:48:04.284 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.45
+21-Aug-2022 15:48:04.285 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.45
+21-Aug-2022 15:48:04.287 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\apache-tomcat-9.0.45\conf\logging.properties
+21-Aug-2022 15:48:04.288 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 15:48:04.288 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2022 15:48:04.290 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2022 15:48:04.291 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+21-Aug-2022 15:48:04.292 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\apache-tomcat-9.0.45
+21-Aug-2022 15:48:04.293 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\apache-tomcat-9.0.45
+21-Aug-2022 15:48:04.300 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\apache-tomcat-9.0.45\temp
+21-Aug-2022 15:48:04.304 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.27]。
+21-Aug-2022 15:48:04.305 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+21-Aug-2022 15:48:04.308 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 15:48:04.316 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+21-Aug-2022 15:48:04.723 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+21-Aug-2022 15:48:05.222 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1167]毫秒内初始化
+21-Aug-2022 15:48:05.264 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 15:48:05.265 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.45]
+21-Aug-2022 15:48:05.294 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]
+21-Aug-2022 15:48:08.246 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:48:11.422 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]的部署已在[6,127]ms内完成
+21-Aug-2022 15:48:11.425 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\cdn_war]
+21-Aug-2022 15:48:13.346 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:48:16.064 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\cdn_war]的部署已在[4,639]毫秒内完成
+21-Aug-2022 15:48:16.074 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\docs]
+21-Aug-2022 15:48:16.097 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\docs]的部署已在[24]毫秒内完成
+21-Aug-2022 15:48:16.098 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\examples]
+21-Aug-2022 15:48:16.352 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\examples]的部署已在[254]毫秒内完成
+21-Aug-2022 15:48:16.360 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\host-manager]
+21-Aug-2022 15:48:16.400 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\host-manager]的部署已在[39]毫秒内完成
+21-Aug-2022 15:48:16.410 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\manager]
+21-Aug-2022 15:48:16.437 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\manager]的部署已在[27]毫秒内完成
+21-Aug-2022 15:48:16.439 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\myprjtest_war]
+21-Aug-2022 15:48:16.916 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:48:16.933 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\myprjtest_war]的部署已在[495]毫秒内完成
+21-Aug-2022 15:48:16.935 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\ROOT]
+21-Aug-2022 15:48:16.957 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\ROOT]的部署已在[22]毫秒内完成
+21-Aug-2022 15:48:16.959 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\spingtest1_war]
+21-Aug-2022 15:48:18.411 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:48:18.466 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2022 15:48:20.620 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 2154 ms
+21-Aug-2022 15:48:20.624 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\spingtest1_war]的部署已在[3,666]毫秒内完成
+21-Aug-2022 15:48:20.626 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\springtest_war]
+21-Aug-2022 15:48:21.875 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:48:21.895 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\springtest_war]的部署已在[1,270]毫秒内完成
+21-Aug-2022 15:48:21.900 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+21-Aug-2022 15:48:21.917 信息 [main] org.apache.catalina.startup.Catalina.start [16695]毫秒后服务器启动
+21-Aug-2022 15:57:54.111 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.45
+21-Aug-2022 15:57:54.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 10:29:04 UTC
+21-Aug-2022 15:57:54.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.45.0
+21-Aug-2022 15:57:54.117 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 15:57:54.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 15:57:54.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 15:57:54.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2022 15:57:54.118 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_144-b01
+21-Aug-2022 15:57:54.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 15:57:54.119 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.45
+21-Aug-2022 15:57:54.120 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.45
+21-Aug-2022 15:57:54.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\apache-tomcat-9.0.45\conf\logging.properties
+21-Aug-2022 15:57:54.122 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 15:57:54.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2022 15:57:54.123 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2022 15:57:54.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+21-Aug-2022 15:57:54.135 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\apache-tomcat-9.0.45
+21-Aug-2022 15:57:54.136 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\apache-tomcat-9.0.45
+21-Aug-2022 15:57:54.137 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\apache-tomcat-9.0.45\temp
+21-Aug-2022 15:57:54.142 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.27]。
+21-Aug-2022 15:57:54.143 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+21-Aug-2022 15:57:54.145 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 15:57:54.153 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+21-Aug-2022 15:57:54.544 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+21-Aug-2022 15:57:55.033 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1137]毫秒内初始化
+21-Aug-2022 15:57:55.069 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 15:57:55.070 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.45]
+21-Aug-2022 15:57:55.100 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]
+21-Aug-2022 15:57:58.273 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:58:01.511 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]的部署已在[6,411]ms内完成
+21-Aug-2022 15:58:01.515 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\cdn_war]
+21-Aug-2022 15:58:03.556 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:58:06.378 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\cdn_war]的部署已在[4,862]毫秒内完成
+21-Aug-2022 15:58:06.388 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\docs]
+21-Aug-2022 15:58:06.415 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\docs]的部署已在[27]毫秒内完成
+21-Aug-2022 15:58:06.427 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\examples]
+21-Aug-2022 15:58:06.658 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\examples]的部署已在[231]毫秒内完成
+21-Aug-2022 15:58:06.668 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\host-manager]
+21-Aug-2022 15:58:06.700 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\host-manager]的部署已在[32]毫秒内完成
+21-Aug-2022 15:58:06.701 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\manager]
+21-Aug-2022 15:58:06.730 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\manager]的部署已在[29]毫秒内完成
+21-Aug-2022 15:58:06.732 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\myprjtest_war]
+21-Aug-2022 15:58:07.302 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:58:07.309 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\myprjtest_war]的部署已在[578]毫秒内完成
+21-Aug-2022 15:58:07.316 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\ROOT]
+21-Aug-2022 15:58:07.342 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\ROOT]的部署已在[26]毫秒内完成
+21-Aug-2022 15:58:07.350 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\spingtest1_war]
+21-Aug-2022 15:58:08.780 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:58:08.845 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2022 15:58:11.168 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 2323 ms
+21-Aug-2022 15:58:11.177 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\spingtest1_war]的部署已在[3,826]毫秒内完成
+21-Aug-2022 15:58:11.179 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\springtest_war]
+21-Aug-2022 15:58:12.576 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 15:58:12.596 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\springtest_war]的部署已在[1,418]毫秒内完成
+21-Aug-2022 15:58:12.601 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+21-Aug-2022 15:58:12.616 信息 [main] org.apache.catalina.startup.Catalina.start [17582]毫秒后服务器启动
+21-Aug-2022 20:50:04.817 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.45
+21-Aug-2022 20:50:04.825 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        Mar 30 2021 10:29:04 UTC
+21-Aug-2022 20:50:04.826 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.45.0
+21-Aug-2022 20:50:04.829 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 10
+21-Aug-2022 20:50:04.830 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+21-Aug-2022 20:50:04.830 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+21-Aug-2022 20:50:04.830 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     C:\Program Files\Java\jdk1.8.0_144\jre
+21-Aug-2022 20:50:04.830 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_144-b01
+21-Aug-2022 20:50:04.831 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+21-Aug-2022 20:50:04.831 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\apache-tomcat-9.0.45
+21-Aug-2022 20:50:04.832 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\apache-tomcat-9.0.45
+21-Aug-2022 20:50:04.834 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=D:\apache-tomcat-9.0.45\conf\logging.properties
+21-Aug-2022 20:50:04.834 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Aug-2022 20:50:04.835 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+21-Aug-2022 20:50:04.838 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Aug-2022 20:50:04.838 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+21-Aug-2022 20:50:04.839 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=D:\apache-tomcat-9.0.45
+21-Aug-2022 20:50:04.841 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=D:\apache-tomcat-9.0.45
+21-Aug-2022 20:50:04.864 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=D:\apache-tomcat-9.0.45\temp
+21-Aug-2022 20:50:04.870 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.0]加载了基于APR的Apache Tomcat本机库[1.2.27]。
+21-Aug-2022 20:50:04.872 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]。
+21-Aug-2022 20:50:04.885 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+21-Aug-2022 20:50:04.895 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 1.1.1k  25 Mar 2021]
+21-Aug-2022 20:50:05.318 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+21-Aug-2022 20:50:05.786 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1217]毫秒内初始化
+21-Aug-2022 20:50:05.839 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+21-Aug-2022 20:50:05.840 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.45]
+21-Aug-2022 20:50:05.877 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]
+21-Aug-2022 20:50:09.410 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 20:50:12.783 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[D:\apache-tomcat-9.0.45\webapps\cdn.war]的部署已在[6,905]ms内完成
+21-Aug-2022 20:50:12.790 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\cdn_war]
+21-Aug-2022 20:50:15.080 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 20:50:18.141 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\cdn_war]的部署已在[5,352]毫秒内完成
+21-Aug-2022 20:50:18.154 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\docs]
+21-Aug-2022 20:50:18.179 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\docs]的部署已在[24]毫秒内完成
+21-Aug-2022 20:50:18.180 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\examples]
+21-Aug-2022 20:50:18.657 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\examples]的部署已在[476]毫秒内完成
+21-Aug-2022 20:50:18.672 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\host-manager]
+21-Aug-2022 20:50:18.748 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\host-manager]的部署已在[76]毫秒内完成
+21-Aug-2022 20:50:18.789 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\manager]
+21-Aug-2022 20:50:18.829 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\manager]的部署已在[40]毫秒内完成
+21-Aug-2022 20:50:18.834 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\myprjtest_war]
+21-Aug-2022 20:50:19.652 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 20:50:19.665 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\myprjtest_war]的部署已在[831]毫秒内完成
+21-Aug-2022 20:50:19.667 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\ROOT]
+21-Aug-2022 20:50:19.690 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\ROOT]的部署已在[22]毫秒内完成
+21-Aug-2022 20:50:19.694 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\spingtest1_war]
+21-Aug-2022 20:50:21.749 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 20:50:21.807 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+21-Aug-2022 20:50:24.268 信息 [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext initialized in 2461 ms
+21-Aug-2022 20:50:24.275 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\spingtest1_war]的部署已在[4,580]毫秒内完成
+21-Aug-2022 20:50:24.277 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\apache-tomcat-9.0.45\webapps\springtest_war]
+21-Aug-2022 20:50:26.197 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+21-Aug-2022 20:50:26.215 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\apache-tomcat-9.0.45\webapps\springtest_war]的部署已在[1,938]毫秒内完成
+21-Aug-2022 20:50:26.221 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+21-Aug-2022 20:50:26.245 信息 [main] org.apache.catalina.startup.Catalina.start [20457]毫秒后服务器启动

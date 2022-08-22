@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<!--ORM映射配置,实现对表的CURD操作-->
+<!--namespace用于指定当前ORM映射文件对应的名称空间，使用“名称空间+id”可以唯一定位到一个SQL操作-->
+<mapper namespace="dao.RoleMapper">
+    <!--设置二级缓存-->
+    <cache
+            eviction="FIFO"
+            flushInterval="60000"
+            size="2048"
+            readOnly="true"/>
+    <!--添加操作-->
+    <!--属性parameterType用于指定sql语句中参数的数据来源的实体类，#{name} 表示的是实现类中属性name-->
+    <insert id="addRole" parameterType="entity.Role">
+        insert into role(name) values(#{name})
+    </insert>
+    <!--删除操作-->
+    <delete id="deleteRole" parameterType="entity.Role">
+        delete from role where id=#{id}
+    </delete>
+    <!--修改操作-->
+    <update id="updateRole" parameterType="entity.Role">
+        update role set name=#{name} where id=#{id}
+    </update>
+    <!--查询所有操作-->
+    <!--resultType表示查询后返回一组数据中每个数据类型-->
+    <!--  useCache="false"设置查询不使用二级缓存  -->
+    <select id="findAllRole" resultType="entity.Role" useCache="true">
+        select * from role
+    </select>
+    <!--查询单个操作-->
+    <select id="findRoleById" parameterType="entity.Role" resultType="entity.Role">
+        select * from role where id=#{id}
+    </select>
+<!--调用存储器-->
+    <select id="call_pro" parameterType="java.lang.Integer" statementType="CALLABLE">
+        {
+            call pro_delete(#{id})
+        }
+    </select>
+</mapper>

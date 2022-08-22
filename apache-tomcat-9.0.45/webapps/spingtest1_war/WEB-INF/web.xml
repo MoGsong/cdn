@@ -1,0 +1,40 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+    <!--  spring环境配置文件的位置(先配置位置，在配置监听器)  -->
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>classpath:applicationContext.xml</param-value>
+    </context-param>
+    <!--  使用监听器,在启动服务器时自动加载spring环境配置文件  -->
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <!--springmvc框架的总控制器，实质为servlet,自动处理从客户端收到的请求-->
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+
+        <!--    springmvc配置文件的位置    -->
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:springmvc.xml</param-value>
+        </init-param>
+    </servlet>
+    <!--  设置请求资源映射 url-pattern内的“/”表示拦截所有请求资源  -->
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+    <!--配置/时会对所有http请求进行“拦截处理”,对静态文件，如图片、js文件、css文件也将被拦截面导致不能正常显示或使用
+    该配置用于指定不对.js文件进行拦截-->
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.js</url-pattern>
+    </servlet-mapping>
+
+</web-app>

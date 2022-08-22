@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--spring框架配置文件的跟标签-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+    <!--  使用控制反转注解配置 @Component @Service @Controller @Repository 都属于依赖注入  -->
+    <!--  把依赖注入的包全部给环境扫描去生成对应的Bean  -->
+    <context:component-scan base-package="entity,dao,service"></context:component-scan>
+    <!--   log4j在aop中的使用 -->
+    <aop:aspectj-autoproxy proxy-target-class="true"></aop:aspectj-autoproxy>
+    <!--  事务管理 注解方式  -->
+    <tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true"></tx:annotation-driven>
+
+    <!--配置使用C3P0连接池-->
+    <!--spring框架的配置文件中，一个bean标签对应一个java对象，该对象的生命周期均由spring框架管理，默认该对象”单例“-->
+    <!--id相关于对象名称，用于唯一区分该对象，class为该对象对应的java类-->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://localhost/traffic?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC"/>
+        <property name="user" value="root"/>
+        <property name="password" value="mgsmgs"/>
+        <property name="maxPoolSize" value="30"/>
+    </bean>
+
+    <!--DBCP连接池-->
+    <bean id="dataSourceX" class="org.apache.commons.dbcp2.BasicDataSource">
+        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="url"
+                  value="jdbc:mysql://localhost/rbac?characterEncoding=utf8&amp;useSSL=false&amp;serverTimezone=UTC"/>
+        <property name="username" value="root"/>
+        <property name="password" value="mgsmgs"/>
+    </bean>
+
+    <!--配置数据库连接时的“事务”，此处使用的是JDBC事务管理机制,间接使用了DBMS中的事务管理机制-->
+    <!--需要指定对哪一个连接池采用事务管理-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 该对象⽤于对mybatiss会话⼯⼚相关参数进⾏配置 -->
+    <bean id="cfg" class="org.apache.ibatis.session.Configuration">
+        <!-- 显⽰sql语句相关⽇志信息到控制台 -->
+        <property name="logImpl" value="org.apache.ibatis.logging.stdout.StdOutImpl"></property>
+    </bean>
+    <!--基于spring框架整个mybatis，创建mybatis会话⼯⼚ ,依赖于C3P0连接池-->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"></property>
+        <property name="configuration" ref="cfg"></property>
+    </bean>
+
+    <!-- DI依赖注入-->
+    <!--mybatis会话工厂,该对象由spring框架维护，该类由mybatis-spring.jar提供-->
+    <!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>-->
+
+    <!--持久层对象，该对象的创建由org.mybatis.spring.mapper.MapperFactoryBean代理创建，该类由mybatis-spring.jar提供-->
+    <!--此处需要指定ORM映射接口和会话工厂-->
+    <!--默认spring管理的java对象，均为单例”singleton“ ,通过设置scope="prototype"变成非单例-->
+    <!--  Bean标签映射 id命名一般为持久层类名首字母小写 -->
+    <bean id="tPnameTrafficsDao" class="org.mybatis.spring.mapper.MapperFactoryBean" >
+        <property name="mapperInterface" value="dao.TPnameTrafficsDao"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+    <bean id="tProvinceTrafficsDao" class="org.mybatis.spring.mapper.MapperFactoryBean" >
+        <property name="mapperInterface" value="dao.TProvinceTrafficsDao"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+    <bean id="tSpnameTrafficsDao" class="org.mybatis.spring.mapper.MapperFactoryBean" >
+        <property name="mapperInterface" value="dao.TSpnameTrafficsDao"/>
+        <property name="sqlSessionFactory" ref="sqlSessionFactory"/>
+    </bean>
+
+</beans>
